@@ -485,6 +485,15 @@ img {
     opacity: 0;
     background: #294635;
 }
+
+@media all and (max-width: 767px) {
+    .background-image-holder {
+        height: 60%;
+        top: 10%;
+    }
+}
+
+
 .background-image-holder:not([class*='col-']) {
     width: 100%;
 }
@@ -2788,7 +2797,7 @@ a {
 }
 .imageblock .imageblock__content {
     position: relative;
-    min-height: 50em;
+    min-height: 35em;
 }
 .imageblock > .container, .imageblock > div[class*='col-']:not(.imageblock__content) {
     padding-top: 5.57142857em;
