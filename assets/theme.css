@@ -473,11 +473,12 @@ img {
 }
 .background-image-holder {
     position: absolute;
-    height: 100%;
-    top: 0;
+    height: 70%;
+    top: 15%;
     left: 0;
-    background-size: cover !important;
+    background-size: contain !important;
     background-position: 50% 50% !important;
+    background-repeat: no-repeat;
     z-index: 0;
     transition: opacity .3s linear;
     -webkit-transition: opacity .3s linear;

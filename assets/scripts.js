@@ -507,14 +507,14 @@ mr = (function (mr, $, window, document){
     "use strict";
     
     mr.backgrounds = mr.backgrounds || {};
-    
+
     mr.backgrounds.documentReady = function($){
         
         //////////////// Append .background-image-holder <img>'s as CSS backgrounds
 
 	    $('.background-image-holder').each(function() {
 	        var imgSrc = $(this).children('img').attr('src');
-	        $(this).css('background', 'url("' + imgSrc + '")').css('background-position', 'initial').css('opacity','1');
+	        $(this).css('background', 'url("' + imgSrc + '")').css('background-position', 'initial').css('opacity','1').css('background-repeat', 'no-repeat');
 	    });
     };
 
