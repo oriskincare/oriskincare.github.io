@@ -732,10 +732,9 @@ div[data-overlay] p, div[data-overlay] ul {
     max-height: 7.42857143em;
 }
 .logo {
-    margin: 2em auto;
-}
-.logo img {
-    max-height: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100px;
 }
 /**! 06. Buttons **/
 .btn {
@@ -2618,14 +2617,14 @@ a {
     color: #e23636;
 }
 .bg--dark {
-    background: #294635;
-    color: white;
+    background: #cbd6ec;
+    color: #243629;
 }
 .bg--dark:not(.nav-bar):not(.bar) {
-    color: #ffffff;
+    color: #243629;
 }
 .bg--dark:not(.nav-bar):not(.bar) a:not(.btn) {
-    color: #fff;
+    color: #243629;
 }
 .bg--site {
     background: #ffffff;
